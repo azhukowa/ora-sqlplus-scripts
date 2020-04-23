@@ -1,0 +1,7 @@
+--триггер для запрета ручных изменений
+create or replace trigger product_b_iud_apicheck
+before insert or update or delete on product
+begin
+  product_api_pack.product_tab_trigger();
+end;
+/

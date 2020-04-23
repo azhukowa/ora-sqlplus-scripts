@@ -1,0 +1,73 @@
+╔════╦═══╦══╦════╗ ╔═══╦══╦════╦══╦╗╔╗
+╚═╗╔═╣╔══╣╔═╩═╗╔═╝ ║╔═╗║╔╗╠═╗╔═╣╔═╣║║║
+──║║─║╚══╣╚═╗─║║   ║╚═╝║╚╝║─║║─║║─║╚╝║
+──║║─║╔══╩═╗║─║║   ║╔══╣╔╗║─║║─║║─║╔╗║
+──║║─║╚══╦═╝║─║║   ║║──║║║║─║║─║╚═╣║║║
+──╚╝─╚═══╩══╝─╚╝   ╚╝──╚╝╚╝─╚╝─╚══╩╝╚╝
+______________________________
+
+Patch ver  DB User    Current Date         OS User         NLS Language         
+---------- ---------- -------------------- --------------- ---------------      
+DB Name         DB Version                                                      
+--------------- ------------------------------                                  
+4          SQLPLUS_DE 24.04.2020 00:49:44  azhukova        AMERICAN_AMERIC      
+           V                                               A.AL32UTF8           
+XE              Oracle Database 11g Express Ed                                  
+                ition Release 11.2.0.2.0 - 64b                                  
+                it Production                                                   
+                                                                                
+4          SQLPLUS_DE 24.04.2020 00:49:44  azhukova        AMERICAN_AMERIC      
+           V                                               A.AL32UTF8           
+XE              PL/SQL Release 11.2.0.2.0 - Pr                                  
+
+Patch ver  DB User    Current Date         OS User         NLS Language         
+---------- ---------- -------------------- --------------- ---------------      
+DB Name         DB Version                                                      
+--------------- ------------------------------                                  
+                oduction                                                        
+                                                                                
+4          SQLPLUS_DE 24.04.2020 00:49:44  azhukova        AMERICAN_AMERIC      
+           V                                               A.AL32UTF8           
+XE              CORE	11.2.0.2.0	Production                                      
+                                                                                
+4          SQLPLUS_DE 24.04.2020 00:49:44  azhukova        AMERICAN_AMERIC      
+           V                                               A.AL32UTF8           
+XE              TNS for Linux: Version 11.2.0.                                  
+
+Patch ver  DB User    Current Date         OS User         NLS Language         
+---------- ---------- -------------------- --------------- ---------------      
+DB Name         DB Version                                                      
+--------------- ------------------------------                                  
+                2.0 - Production                                                
+                                                                                
+4          SQLPLUS_DE 24.04.2020 00:49:44  azhukova        AMERICAN_AMERIC      
+           V                                               A.AL32UTF8           
+XE              NLSRTL Version 11.2.0.2.0 - Pr                                  
+                oduction                                                        
+                                                                                
+
+______________________________
+================
+drop package product_test_pack
+
+Package dropped.
+
+drop trigger product_apicheck.tgr
+
+Trigger dropped.
+
+drop package product_api_pack
+
+Package dropped.
+
+drop sequence product_pk
+
+Sequence dropped.
+
+drop table wallet
+
+Table dropped.
+
+================
+
+Patch was uninstalled

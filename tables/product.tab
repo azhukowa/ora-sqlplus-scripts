@@ -1,0 +1,18 @@
+create table product(
+  prd_id      number(30) not null,
+  prd_name    varchar2(200 char) not null,
+  prd_price   number(30,2) default 0 not null,
+  prd_create_date date default sysdate not null,
+  prd_modify_date date default sysdate not null
+);
+
+alter table product add constraint product_pk primary key (prd_id);
+alter table product add constraint prd_modify_date_ch check (prd_modify_date >= prd_create_date);
+alter table product add constraint prd_price_ch check (prd_price >= 0);
+ 
+comment on table product  is 'продукты';
+comment on column product.prd_id is 'id';
+comment on column product.prd_name is 'название продукта';
+comment on column product.prd_price is 'цена за единицу';
+comment on column product.prd_create_date is 'дата создания записи';
+comment on column product.prd_modify_date is 'дата изменения записи';
